@@ -76,9 +76,14 @@ POLYMARKET_RPC_URL=https://polygon-rpc.com
 
 # Trading parameters
 SYMBOL=BTC-USD
+
 TIMEFRAME=15m
-POSITION_MAX_PCT=0.05                 # max 5% of capital per trade
+
+POSITION_MAX_PCT=0.05 
+# max 5% of capital per trade
+
 DAILY_LOSS_CAP_PCT=-3.0
+
 MAX_DRAWDOWN_PCT=-15.0
 
 # Optional Telegram alerts
